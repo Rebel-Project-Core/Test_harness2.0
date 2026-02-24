@@ -1,0 +1,2295 @@
+[credo] installing (bioconductor) package: iAR
+2025/12/24 12:00:40 apt.go:175: Reading package lists...
+Building dependency tree...
+Reading state information...
+r-base is already the newest version (4.3.3-2build2).
+0 upgraded, 0 newly installed, 0 to remove and 37 not upgraded.
+2025/12/24 12:00:48 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 37 not upgraded.
+Need to get 9304 B of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 r-base all 4.3.3-2build2 [9304 B]
+Fetched 9304 B in 0s (34.2 kB/s)
+Download complete and in download only mode
+2025/12/24 12:00:54 apt.go:259: Reading package lists...
+Building dependency tree...
+Reading state information...
+debconf: delaying package configuration, since apt-utils is not installed
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 37 not upgraded.
+Need to get 0 B/9304 B of archives.
+After this operation, 0 B of additional disk space will be used.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17378 files and directories currently installed.)
+Preparing to unpack .../r-base_4.3.3-2build2_all.deb ...
+Unpacking r-base (4.3.3-2build2) over (4.3.3-2build2) ...
+Setting up r-base (4.3.3-2build2) ...
+2025/12/24 12:01:02 apt.go:175: Reading package lists...
+Building dependency tree...
+Reading state information...
+r-base-dev is already the newest version (4.3.3-2build2).
+r-base-dev set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 37 not upgraded.
+2025/12/24 12:01:13 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 37 not upgraded.
+Need to get 4334 B of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 r-base-dev all 4.3.3-2build2 [4334 B]
+Fetched 4334 B in 2s (2017 B/s)
+Download complete and in download only mode
+2025/12/24 12:01:22 apt.go:259: Reading package lists...
+Building dependency tree...
+Reading state information...
+debconf: delaying package configuration, since apt-utils is not installed
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 37 not upgraded.
+Need to get 0 B/4334 B of archives.
+After this operation, 0 B of additional disk space will be used.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17378 files and directories currently installed.)
+Preparing to unpack .../r-base-dev_4.3.3-2build2_all.deb ...
+Unpacking r-base-dev (4.3.3-2build2) over (4.3.3-2build2) ...
+Setting up r-base-dev (4.3.3-2build2) ...
+2025/12/24 12:01:32 apt.go:259: Reading package lists...
+Building dependency tree...
+Reading state information...
+debconf: delaying package configuration, since apt-utils is not installed
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 37 not upgraded.
+Need to get 0 B/9304 B of archives.
+After this operation, 0 B of additional disk space will be used.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17378 files and directories currently installed.)
+Preparing to unpack .../r-base_4.3.3-2build2_all.deb ...
+Unpacking r-base (4.3.3-2build2) over (4.3.3-2build2) ...
+Setting up r-base (4.3.3-2build2) ...
+2025/12/24 12:01:44 apt.go:259: Reading package lists...
+Building dependency tree...
+Reading state information...
+debconf: delaying package configuration, since apt-utils is not installed
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 37 not upgraded.
+Need to get 0 B/4334 B of archives.
+After this operation, 0 B of additional disk space will be used.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17378 files and directories currently installed.)
+Preparing to unpack .../r-base-dev_4.3.3-2build2_all.deb ...
+Unpacking r-base-dev (4.3.3-2build2) over (4.3.3-2build2) ...
+Setting up r-base-dev (4.3.3-2build2) ...
+trying URL 'http://cran.us.r-project.org/src/contrib/BiocManager_1.30.27.tar.gz'
+Content type 'application/x-gzip' length 752490 bytes (734 KB)
+==================================================
+downloaded 734 KB
+
+     [,1]          [,2]                             
+[1,] "BiocManager" "/tmp/BiocManager_1.30.27.tar.gz"
+Worker utils starting
+trying URL 'http://cran.us.r-project.org/src/contrib/BiocManager_1.30.27.tar.gz'
+Content type 'application/x-gzip' length 752490 bytes (734 KB)
+==================================================
+downloaded 734 KB
+
+     [,1]          [,2]                                                 
+[1,] "BiocManager" "/credo_env/credoenv/cran/BiocManager_1.30.27.tar.gz"
+* installing *source* package ‘BiocManager’ ...
+** package ‘BiocManager’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (BiocManager)
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/iAR_1.3.2.tar.gz'
+Content type 'application/x-gzip' length 151557 bytes (148 KB)
+==================================================
+downloaded 148 KB
+
+     [,1]  [,2]                   
+[1,] "iAR" "/tmp/iAR_1.3.2.tar.gz"
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker Rdpack starting
+Worker ggplot2 starting
+Worker Rcpp starting
+Worker stats starting
+Loading required package: BiocManager
+Loading required package: BiocManager
+Loading required package: BiocManager
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/ggplot2_4.0.1.tar.gz'
+trying URL 'http://cran.us.r-project.org/src/contrib/Rdpack_2.6.4.tar.gz'
+trying URL 'http://cran.us.r-project.org/src/contrib/Rcpp_1.1.0.tar.gz'
+Worker S7 starting
+Content type 'application/x-gzip' length 379140 bytes (370 KB)
+=Content type 'application/x-gzip' length 3107035 bytes (3.0 MB)
+===Content type 'application/x-gzip' length 6343443 bytes (6.0 MB)
+Loading required package: BiocManager
+=================================================
+downloaded 370 KB
+
+     [,1]     [,2]                      
+[1,] "Rdpack" "/tmp/Rdpack_2.6.4.tar.gz"
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+=============================================================
+downloaded 6.0 MB
+
+     [,1]      [,2]                       
+[1,] "ggplot2" "/tmp/ggplot2_4.0.1.tar.gz"
+=================Loading required package: BiocManager
+====Loading required package: BiocManager
+==Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+======Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for detail=s.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+======
+downloaded 3.0 MB
+
+     [,1]   [,2]                    
+[1,] "Rcpp" "/tmp/Rcpp_1.1.0.tar.gz"
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/S7_0.2.1.tar.gz'
+Content type 'application/x-gzip' length 184141 bytes (179 KB)
+==================================================
+downloaded 179 KB
+
+     [,1] [,2]                  
+[1,] "S7" "/tmp/S7_0.2.1.tar.gz"
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker rbibutils starting
+Worker tools starting
+Worker utils starting
+Worker methods starting
+Worker gtable starting
+Worker grDevices starting
+Worker cli starting
+Worker grid starting
+Loading required package: BiocManager
+Loading required package: BiocManager
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Loading required package: BiocManager
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Loading required package: BiocManager
+Loading required package: BiocManager
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker utils starting
+Worker methods starting
+Loading required package: BiocManager
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for detailBioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+s.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/rbibutils_2.4.tar.gz'
+Content type 'application/x-gzip' length 1170691 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+     [,1]        [,2]                       
+[1,] "rbibutils" "/tmp/rbibutils_2.4.tar.gz"
+Worker utils starting
+Worker isoband starting
+trying URL 'http://cran.us.r-project.org/src/contrib/cli_3.6.5.tar.gz'
+Worker lifecycle starting
+trying URL 'http://cran.us.r-project.org/src/contrib/gtable_0.3.6.tar.gz'
+Loading required package: BiocManager
+Loading required package: BiocManager
+Content type 'application/x-gzip' length 640240 bytes (625 KB)
+=============================Content type 'application/x-gzip' length 148148 bytes (144 KB)
+=======================
+downloaded 625 KB
+
+     [,1]  [,2]                   
+[1,] "cli" "/tmp/cli_3.6.5.tar.gz"
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+========'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+================Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+========================
+downloaded 144 KB
+
+     [,1]     [,2]                      
+[1,] "gtable" "/tmp/gtable_0.3.6.tar.gz"
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Worker zoo starting
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker RcppArmadillo starting
+trying URL 'http://cran.us.r-project.org/src/contrib/isoband_0.3.0.tar.gz'
+trying URL 'http://cran.us.r-project.org/src/contrib/lifecycle_1.0.4.tar.gz'
+Content type 'application/x-gzip' length 1593511 bytes (1.5 MB)
+====Loading required package: BiocManager
+Content type 'application/x-gzip' length 107656 bytes (105 KB)
+==================================================================================
+downloaded 105 KB
+
+     [,1]        [,2]                         
+[1,] "lifecycle" "/tmp/lifecycle_1.0.4.tar.gz"
+==============
+downloaded 1.5 MB
+
+     [,1]      [,2]                       
+[1,] "isoband" "/tmp/isoband_0.3.0.tar.gz"
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker tools starting
+Worker utils starting
+trying URL 'http://cran.us.r-project.org/src/contrib/zoo_1.8-15.tar.gz'
+Loading required package: BiocManager
+Content type 'application/x-gzip' length 806453 bytes (787 KB)
+=Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://=bioconductor.org/install
+=='getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+===================================Worker utils starting
+===========
+downloaded 787 KB
+
+     [,1]  [,2]                    
+[1,] "zoo" "/tmp/zoo_1.8-15.tar.gz"
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker lifecycle starting
+Worker glue starting
+Worker grid starting
+Worker cli starting
+Loading required package: BiocManager
+Loading required package: BiocManager
+Loading required package: BiocManager
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/RcppArmadillo_15.2.3-1.tar.gz'
+Content type 'application/x-gzip' length 2123239 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+     [,1]            [,2]                                
+[1,] "RcppArmadillo" "/tmp/RcppArmadillo_15.2.3-1.tar.gz"
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker utils starting
+Worker glue starting
+Worker rlang starting
+Worker cli starting
+Worker cli starting
+Loading required package: BiocManager
+Worker rlang starting
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Loading required package: BiocManager
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker utils starting
+Worker grid starting
+Worker cli starting
+Worker cpp11 starting
+Worker rlang starting
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+trying URL 'http://cran.us.r-project.org/src/contrib/glue_1.8.0.tar.gz'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker rlang starting
+Content type 'application/x-gzip' length 126682 bytes (123 KB)
+===trying URL 'http://cran.us.r-project.org/src/contrib/lifecycle_1.0.4.tar.gz'
+=========Loading required package: BiocManager
+======================================
+downloaded 123 KB
+
+     [,1]   [,2]                    
+[1,] "glue" "/tmp/glue_1.8.0.tar.gz"
+Content type 'application/x-gzip' length 107656 bytes (105 KB)
+==================================================
+downloaded 105 KB
+
+     [,1]        [,2]                         
+[1,] "lifecycle" "/tmp/lifecycle_1.0.4.tar.gz"
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/cli_3.6.5.tar.gz'
+Loading required package: BiocManager
+Loading required package: BiocManager
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Content type 'application/x-gzip' length 640240 bytes (625 KB)
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+==Loading required package: BiocManager
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+===Loading required package: BiocManager
+=============================================
+downloaded 625 KB
+
+     [,1]  [,2]                   
+[1,] "cli" "/tmp/cli_3.6.5.tar.gz"
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker grDevices starting
+Worker utils starting
+Worker stats starting
+Worker graphics starting
+Loading required package: BiocManager
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/rlang_1.1.6.tar.gz'
+Worker methods starting
+Content type 'application/x-gzip' length 767928 bytes (749 KB)
+=====trying URL 'http://cran.us.r-project.org/src/contrib/glue_1.8.0.tar.gz'
+=============================================
+downloaded 749 KB
+
+     [,1]    [,2]                     
+[1,] "rlang" "/tmp/rlang_1.1.6.tar.gz"
+trying URL 'http://cran.us.r-project.org/src/contrib/cli_3.6.5.tar.gz'
+trying URL 'http://cran.us.r-project.org/src/contrib/cli_3.6.5.tar.gz'
+Content type 'application/x-gzip' length 126682 bytes (123 KB)
+==================================================
+downloaded 123 KB
+
+     [,1]   [,2]                    
+[1,] "glue" "/tmp/glue_1.8.0.tar.gz"
+Loading required package: BiocManager
+Content type 'application/x-gzip' length 640240 bytes (625 KB)
+=========Content type 'application/x-gzip' length 640240 bytes (625 KB)
+===============================================
+downloaded 625 KB
+
+     [,1]  [,2]                   
+[1,] "cli" "/tmp/cli_3.6.5.tar.gz"
+============================================
+downloaded 625 KB
+
+     [,1]  [,2]                   
+[1,] "cli" "/tmp/cli_3.6.5.tar.gz"
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+trying URL 'http://cran.us.r-project.org/src/contrib/rlang_1.1.6.tar.gz'
+trying URL 'http://cran.us.r-project.org/src/contrib/cpp11_0.5.2.tar.gz'
+Loading required package: BiocManager
+trying URL 'http://cran.us.r-project.org/src/contrib/rlang_1.1.6.tar.gz'
+Loading required package: BiocManager
+Content type 'application/x-gzip' length 767928 bytes (749 KB)
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+=='getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+==Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+====='getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+================================Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+=========
+downloaded 749 KB
+
+     [,1]    [,2]                     
+[1,] "rlang" "/tmp/rlang_1.1.6.tar.gz"
+Content type 'application/x-gzip' length 291993 bytes (285 KB)
+========================Content type 'application/x-gzip' length 767928 bytes (749 KB)
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+==========================
+downloaded 285 KB
+
+     [,1]    [,2]                     
+[1,] "cpp11" "/tmp/cpp11_0.5.2.tar.gz"
+=======Loading required package: BiocManager
+===========================================
+downloaded 749 KB
+
+     [,1]    [,2]                     
+[1,] "rlang" "/tmp/rlang_1.1.6.tar.gz"
+Worker methods starting
+Worker stats starting
+Worker Rcpp starting
+Worker utils starting
+trying URL 'http://cran.us.r-project.org/src/contrib/rlang_1.1.6.tar.gz'
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Content type 'application/x-gzip' length 767928 bytes (749 KB)
+==================================================
+downloaded 749 KB
+
+     [,1]    [,2]                     
+[1,] "rlang" "/tmp/rlang_1.1.6.tar.gz"
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Loading required package: BiocManager
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Loading required package: BiocManager
+Loading required package: BiocManager
+Loading required package: BiocManager
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker lattice starting
+Worker grid starting
+Loading required package: BiocManager
+Worker methods starting
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker cli starting
+Worker methods starting
+Worker utils starting
+Worker rlang starting
+Worker glue starting
+Loading required package: BiocManager
+Worker utils starting
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Loading required package: BiocManager
+Loading required package: BiocManager
+Loading required package: BiocManager
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for detailBioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+s.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker methods starting
+trying URL 'http://cran.us.r-project.org/src/contrib/lattice_0.22-7.tar.gz'
+Loading required package: BiocManager
+Worker utils starting
+Content type 'application/x-gzip' length 598622 bytes (584 KB)
+==================================================
+downloaded 584 KB
+
+     [,1]      [,2]                        
+[1,] "lattice" "/tmp/lattice_0.22-7.tar.gz"
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Worker utils starting
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker utils starting
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Loading required package: BiocManager
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Worker utils starting
+Worker utils starting
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Worker stats starting
+trying URL 'http://cran.us.r-project.org/src/contrib/rlang_1.1.6.tar.gz'
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker utils starting
+trying URL 'http://cran.us.r-project.org/src/contrib/glue_1.8.0.tar.gz'
+Loading required package: BiocManager
+Worker utils starting
+Loading required package: BiocManager
+Content type 'application/x-gzip' length 767928 bytes (749 KB)
+==============Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+========================'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+============
+downloaded 749 KB
+
+     [,1]    [,2]                     
+[1,] "rlang" "/tmp/rlang_1.1.6.tar.gz"
+Content type 'application/x-gzip' length 126682 bytes (123 KB)
+==================================================
+downloaded 123 KB
+
+     [,1]   [,2]                    
+[1,] "glue" "/tmp/glue_1.8.0.tar.gz"
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker grDevices starting
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker methods starting
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker S7 starting
+Worker scales starting
+Worker stats starting
+Worker grDevices starting
+Worker grid starting
+Worker graphics starting
+Loading required package: BiocManager
+Worker stats starting
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Loading required package: BiocManager
+Loading required package: BiocManager
+Loading required package: BiocManager
+Worker vctrs starting
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker methods starting
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Worker utils starting
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Loading required package: BiocManager
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker grid starting
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+2025/12/24 12:07:54 apt.go:175: Reading package lists...
+Building dependency tree...
+Reading state information...
+libblas-dev is already the newest version (3.12.0-3build1.1).
+libblas-dev set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 37 not upgraded.
+Worker utils starting
+trying URL 'http://cran.us.r-project.org/src/contrib/scales_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 328671 bytes (320 KB)
+==================================================
+downloaded 320 KB
+
+     [,1]     [,2]                      
+[1,] "scales" "/tmp/scales_1.4.0.tar.gz"
+Loading required package: BiocManager
+Worker withr starting
+trying URL 'http://cran.us.r-project.org/src/contrib/vctrs_0.6.5.tar.gz'
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Content type 'application/x-gzip' length 969066 bytes (946 KB)
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+=Loading required package: BiocManager
+====================================Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+=============
+downloaded 946 KB
+
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+     [,1]    [,2]                     
+[1,] "vctrs" "/tmp/vctrs_0.6.5.tar.gz"
+Worker utils starting
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker gtable starting
+Worker isoband starting
+Worker lifecycle starting
+Worker rlang starting
+Worker scales starting
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/withr_3.0.2.tar.gz'
+Content type 'application/x-gzip' length 103240 bytes (100 KB)
+===============Worker vctrs starting
+===================================
+downloaded 100 KB
+
+     [,1]    [,2]                     
+[1,] "withr" "/tmp/withr_3.0.2.tar.gz"
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker glue starting
+Worker cpp11 starting
+Worker farver starting
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker labeling starting
+Worker farver starting
+Worker glue starting
+Worker lifecycle starting
+Worker R6 starting
+Worker cli starting
+Worker RColorBrewer starting
+trying URL 'http://cran.us.r-project.org/src/contrib/scales_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 328671 bytes (320 KB)
+=Loading required package: BiocManager
+===Loading required package: BiocManager
+Loading required package: BiocManager
+===============================Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+===============
+downloaded 320 KB
+
+     [,1]     [,2]                      
+[1,] "scales" "/tmp/scales_1.4.0.tar.gz"
+Loading required package: BiocManager
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker rlang starting
+Worker lifecycle starting
+Worker utils starting
+Worker methods starting
+Worker cli starting
+Worker glue starting
+Loading required package: BiocManager
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://trying URL 'http://cran.us.r-project.org/src/contrib/vctrs_0.6.5.tar.gz'
+bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Content type 'application/x-gzip' length 969066 bytes (946 KB)
+==================================================
+downloaded 946 KB
+
+     [,1]    [,2]                     
+[1,] "vctrs" "/tmp/vctrs_0.6.5.tar.gz"
+trying URL 'http://cran.us.r-project.org/src/contrib/farver_2.1.2.tar.gz'
+Loading required package: BiocManager
+Content type 'application/x-gzip' length 1275981 bytes (1.2 MB)
+===========Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+==============='getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+========================
+downloaded 1.2 MB
+
+     [,1]     [,2]                      
+[1,] "farver" "/tmp/farver_2.1.2.tar.gz"
+trying URL 'http://cran.us.r-project.org/src/contrib/R6_2.6.1.tar.gz'
+Loading required package: BiocManager
+Content type 'application/x-gzip' length 64507 bytes (62 KB)
+==================================================
+downloaded 62 KB
+
+     [,1] [,2]                  
+[1,] "R6" "/tmp/R6_2.6.1.tar.gz"
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/farver_2.1.2.tar.gz'
+trying URL 'http://cran.us.r-project.org/src/contrib/RColorBrewer_1.1-3.tar.gz'
+Loading required package: BiocManager
+trying URL 'http://cran.us.r-project.org/src/contrib/labeling_0.4.3.tar.gz'
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Content type 'application/x-gzip' length 11638 bytes (11 KB)
+=================================='getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Content type 'application/x-gzip' length 1275981 bytes (1.2 MB)
+================
+downloaded 11 KB
+
+     [,1]           [,2]                            
+[1,] "RColorBrewer" "/tmp/RColorBrewer_1.1-3.tar.gz"
+================Content type 'application/x-gzip' length 10167 bytes
+==================================================
+downloaded 10167 bytes
+
+     [,1]       [,2]                        
+[1,] "labeling" "/tmp/labeling_0.4.3.tar.gz"
+==========Worker grDevices starting
+Worker graphics starting
+=====================Loading required package: BiocManager
+===
+downloaded 1.2 MB
+
+     [,1]     [,2]                      
+[1,] "farver" "/tmp/farver_2.1.2.tar.gz"
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Loading required package: BiocManager
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+2025/12/24 12:08:57 apt.go:175: Reading package lists...
+Building dependency tree...
+Reading state information...
+liblapack-dev is already the newest version (3.12.0-3build1.1).
+liblapack-dev set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 37 not upgraded.
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker labeling starting
+Worker farver starting
+Worker glue starting
+Worker lifecycle starting
+Worker R6 starting
+Worker cli starting
+Worker RColorBrewer starting
+Loading required package: BiocManager
+Worker labeling starting
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Loading required package: BiocManager
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker rlang starting
+Worker utils starting
+Worker glue starting
+Worker methods starting
+Worker lifecycle starting
+Worker cli starting
+Worker R6 starting
+Loading required package: BiocManager
+Loading required package: BiocManager
+Worker withr starting
+Worker methods starting
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/labeling_0.4.3.tar.gz'
+Loading required package: BiocManager
+Content type 'application/x-gzip' length 10167 bytes
+==================================================
+downloaded 10167 bytes
+
+     [,1]       [,2]                        
+[1,] "labeling" "/tmp/labeling_0.4.3.tar.gz"
+trying URL 'http://cran.us.r-project.org/src/contrib/R6_2.6.1.tar.gz'
+trying URL 'http://cran.us.r-project.org/src/contrib/farver_2.1.2.tar.gz'
+Worker RColorBrewer starting
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Content type 'application/x-gzip' length 64507 bytes (62 KB)
+==================================================
+downloaded 62 KB
+
+     [,1] [,2]                  
+[1,] "R6" "/tmp/R6_2.6.1.tar.gz"
+Content type 'application/x-gzip' length 1275981 bytes (1.2 MB)
+trying URL 'http://cran.us.r-project.org/src/contrib/RColorBrewer_1.1-3.tar.gz'
+==================================================
+downloaded 1.2 MB
+
+     [,1]     [,2]                      
+[1,] "farver" "/tmp/farver_2.1.2.tar.gz"
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Content type 'application/x-gzip' length 11638 bytes (11 KB)
+==================================================
+downloaded 11 KB
+
+     [,1]           [,2]                            
+[1,] "RColorBrewer" "/tmp/RColorBrewer_1.1-3.tar.gz"
+trying URL 'http://cran.us.r-project.org/src/contrib/labeling_0.4.3.tar.gz'
+Loading required package: BiocManager
+Loading required package: BiocManager
+Content type 'application/x-gzip' length 10167 bytes
+==================================================
+downloaded 10167 bytes
+
+     [,1]       [,2]                        
+[1,] "labeling" "/tmp/labeling_0.4.3.tar.gz"
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker rlang starting
+Worker viridisLite starting
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Worker utils starting
+Worker methods starting
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker graphics starting
+Worker stats starting
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Loading required package: BiocManager
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker utils starting
+Worker tools starting
+Loading required package: BiocManager
+trying URL 'http://cran.us.r-project.org/src/contrib/RColorBrewer_1.1-3.tar.gz'
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+trying URL 'http://cran.us.r-project.org/src/contrib/R6_2.6.1.tar.gz'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Content type 'application/x-gzip' length 64507 bytes (62 KB)
+======Content type 'application/x-gzip' length 11638 bytes (11 KB)
+====================================================================
+downloaded 11 KB
+
+     [,1]           [,2]                            
+[1,] "RColorBrewer" "/tmp/RColorBrewer_1.1-3.tar.gz"
+==========================
+downloaded 62 KB
+
+     [,1] [,2]                  
+[1,] "R6" "/tmp/R6_2.6.1.tar.gz"
+Loading required package: BiocManager
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/viridisLite_0.4.2.tar.gz'
+Content type 'application/x-gzip' length 1267121 bytes (1.2 MB)
+=====Worker stats starting
+=============================================
+downloaded 1.2 MB
+
+     [,1]          [,2]                           
+[1,] "viridisLite" "/tmp/viridisLite_0.4.2.tar.gz"
+Worker graphics starting
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker graphics starting
+Worker stats starting
+Worker rlang starting
+Worker viridisLite starting
+Worker utils starting
+Worker graphics starting
+Worker stats starting
+Loading required package: BiocManager
+Loading required package: BiocManager
+Worker methods starting
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Loading required package: BiocManager
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://Loading required package: BiocManager
+bioconductor.org/install
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://Loading required package: BiocManager
+bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker rbibutils starting
+Worker graphics starting
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Worker lattice starting
+Worker glue starting
+Worker cpp11 starting
+Worker farver starting
+Worker labeling starting
+Worker R6 starting
+Worker RColorBrewer starting
+Worker viridisLite starting
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Worker viridisLite starting
+Worker graphics starting
+Worker stats starting
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Worker graphics starting
+trying URL 'http://cran.us.r-project.org/src/contrib/viridisLite_0.4.2.tar.gz'
+Loading required package: BiocManager
+trying URL 'http://cran.us.r-project.org/src/contrib/viridisLite_0.4.2.tar.gz'
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Worker methods starting
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Content type 'application/x-gzip' length 1267121 bytes (1.2 MB)
+=Content type 'application/x-gzip' length 1267121 bytes (1.2 MB)
+=============Loading required package: BiocManager
+===========================================================
+downloaded 1.2 MB
+
+     [,1]          [,2]                           
+[1,] "viridisLite" "/tmp/viridisLite_0.4.2.tar.gz"
+===========================
+downloaded 1.2 MB
+
+     [,1]          [,2]                           
+[1,] "viridisLite" "/tmp/viridisLite_0.4.2.tar.gz"
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Loading required package: BiocManager
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/viridisLite_0.4.2.tar.gz'
+Content type 'application/x-gzip' length 1267121 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+     [,1]          [,2]                           
+[1,] "viridisLite" "/tmp/viridisLite_0.4.2.tar.gz"
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Package suggestions:
+	- r-api-4.0 suggested from r-base coming from apt.
+	- liblapack.so.3 suggested from r-base coming from apt.
+	- libhogweed6 suggested from r-base coming from apt.
+	- libgnutls30 suggested from r-base coming from apt.
+	- libblas.so.3 suggested from r-base coming from apt.
+	- libglib2.0-0 suggested from r-base coming from apt.
+	- libreadline8 suggested from r-base coming from apt.
+	- libnettle8 suggested from r-base coming from apt.
+	- debconf-2.0 suggested from r-base coming from apt.
+	- liblapack.so.3 suggested from r-base-dev coming from apt.
+	- libhogweed6 suggested from r-base-dev coming from apt.
+	- libgnutls30 suggested from r-base-dev coming from apt.
+	- libblas.so.3 suggested from r-base-dev coming from apt.
+	- libblas.so suggested from r-base-dev coming from apt.
+	- libglib2.0-0 suggested from r-base-dev coming from apt.
+	- libreadline8 suggested from r-base-dev coming from apt.
+	- libc-dev suggested from r-base-dev coming from apt.
+	- libnettle8 suggested from r-base-dev coming from apt.
+	- perl:any suggested from r-base-dev coming from apt.
+	- debconf-2.0 suggested from r-base-dev coming from apt.
+	- libblas.so.3 suggested from liblapack-dev coming from apt.
+	- libblas.so suggested from liblapack-dev coming from apt.
+[credo] saving environment
+2025/12/24 12:11:32 cran.go:179: [cran]: Skipped saving BiocManager, already present.
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/Rcpp_1.1.0.tar.gz'
+Content type 'application/x-gzip' length 3107035 bytes (3.0 MB)
+==================================================
+downloaded 3.0 MB
+
+     [,1]   [,2]                                        
+[1,] "Rcpp" "/credo_env/credoenv/cran/Rcpp_1.1.0.tar.gz"
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/S7_0.2.1.tar.gz'
+Content type 'application/x-gzip' length 184141 bytes (179 KB)
+==================================================
+downloaded 179 KB
+
+     [,1] [,2]                                      
+[1,] "S7" "/credo_env/credoenv/cran/S7_0.2.1.tar.gz"
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/rbibutils_2.4.tar.gz'
+Content type 'application/x-gzip' length 1170691 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+     [,1]        [,2]                                           
+[1,] "rbibutils" "/credo_env/credoenv/cran/rbibutils_2.4.tar.gz"
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/Rdpack_2.6.4.tar.gz'
+Content type 'application/x-gzip' length 379140 bytes (370 KB)
+==================================================
+downloaded 370 KB
+
+     [,1]     [,2]                                          
+[1,] "Rdpack" "/credo_env/credoenv/cran/Rdpack_2.6.4.tar.gz"
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/cli_3.6.5.tar.gz'
+Content type 'application/x-gzip' length 640240 bytes (625 KB)
+==================================================
+downloaded 625 KB
+
+     [,1]  [,2]                                       
+[1,] "cli" "/credo_env/credoenv/cran/cli_3.6.5.tar.gz"
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/glue_1.8.0.tar.gz'
+Content type 'application/x-gzip' length 126682 bytes (123 KB)
+==================================================
+downloaded 123 KB
+
+     [,1]   [,2]                                        
+[1,] "glue" "/credo_env/credoenv/cran/glue_1.8.0.tar.gz"
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/rlang_1.1.6.tar.gz'
+Content type 'application/x-gzip' length 767928 bytes (749 KB)
+==================================================
+downloaded 749 KB
+
+     [,1]    [,2]                                         
+[1,] "rlang" "/credo_env/credoenv/cran/rlang_1.1.6.tar.gz"
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/lifecycle_1.0.4.tar.gz'
+Content type 'application/x-gzip' length 107656 bytes (105 KB)
+==================================================
+downloaded 105 KB
+
+     [,1]        [,2]                                             
+[1,] "lifecycle" "/credo_env/credoenv/cran/lifecycle_1.0.4.tar.gz"
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/gtable_0.3.6.tar.gz'
+Content type 'application/x-gzip' length 148148 bytes (144 KB)
+==================================================
+downloaded 144 KB
+
+     [,1]     [,2]                                          
+[1,] "gtable" "/credo_env/credoenv/cran/gtable_0.3.6.tar.gz"
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/cpp11_0.5.2.tar.gz'
+Content type 'application/x-gzip' length 291993 bytes (285 KB)
+==================================================
+downloaded 285 KB
+
+     [,1]    [,2]                                         
+[1,] "cpp11" "/credo_env/credoenv/cran/cpp11_0.5.2.tar.gz"
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/isoband_0.3.0.tar.gz'
+Content type 'application/x-gzip' length 1593511 bytes (1.5 MB)
+==================================================
+downloaded 1.5 MB
+
+     [,1]      [,2]                                           
+[1,] "isoband" "/credo_env/credoenv/cran/isoband_0.3.0.tar.gz"
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/lattice_0.22-7.tar.gz'
+Content type 'application/x-gzip' length 598622 bytes (584 KB)
+==================================================
+downloaded 584 KB
+
+     [,1]      [,2]                                            
+[1,] "lattice" "/credo_env/credoenv/cran/lattice_0.22-7.tar.gz"
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/zoo_1.8-15.tar.gz'
+Content type 'application/x-gzip' length 806453 bytes (787 KB)
+==================================================
+downloaded 787 KB
+
+     [,1]  [,2]                                        
+[1,] "zoo" "/credo_env/credoenv/cran/zoo_1.8-15.tar.gz"
+2025/12/24 12:13:39 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 37 not upgraded.
+Need to get 50.8 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gcc-14-base amd64 14.2.0-4ubuntu2~24.04 [50.8 kB]
+Fetched 50.8 kB in 0s (278 kB/s)
+Download complete and in download only mode
+2025/12/24 12:13:44 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libc-bin libc-dev-bin libc6-dev
+Suggested packages:
+  manpages glibc-doc locales libnss-nis libnss-nisplus manpages-dev
+Recommended packages:
+  manpages manpages-dev libc-devtools
+The following packages will be upgraded:
+  libc-bin libc-dev-bin libc6 libc6-dev
+4 upgraded, 0 newly installed, 0 to remove and 33 not upgraded.
+Need to get 6090 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libc6-dev amd64 2.39-0ubuntu8.6 [2125 kB]
+Get:2 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libc-dev-bin amd64 2.39-0ubuntu8.6 [20.4 kB]
+Get:3 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libc6 amd64 2.39-0ubuntu8.6 [3263 kB]
+Get:4 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libc-bin amd64 2.39-0ubuntu8.6 [682 kB]
+Fetched 6090 kB in 0s (14.0 MB/s)
+Download complete and in download only mode
+2025/12/24 12:13:49 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 37 not upgraded.
+Need to get 78.6 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libgcc-s1 amd64 14.2.0-4ubuntu2~24.04 [78.6 kB]
+Fetched 78.6 kB in 0s (334 kB/s)
+Download complete and in download only mode
+2025/12/24 12:13:54 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 37 not upgraded.
+Need to get 238 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libblas3 amd64 3.12.0-3build1.1 [238 kB]
+Fetched 238 kB in 0s (1057 kB/s)
+Download complete and in download only mode
+2025/12/24 12:13:59 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 37 not upgraded.
+Need to get 170 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libblas-dev amd64 3.12.0-3build1.1 [170 kB]
+Fetched 170 kB in 0s (510 kB/s)
+Download complete and in download only mode
+2025/12/24 12:14:02 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 37 not upgraded.
+Need to get 148 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libgomp1 amd64 14.2.0-4ubuntu2~24.04 [148 kB]
+Fetched 148 kB in 0s (543 kB/s)
+Download complete and in download only mode
+2025/12/24 12:14:07 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 37 not upgraded.
+Need to get 916 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libgfortran5 amd64 14.2.0-4ubuntu2~24.04 [916 kB]
+Fetched 916 kB in 1s (1029 kB/s)
+Download complete and in download only mode
+2025/12/24 12:14:13 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  libopenblas0-serial
+0 upgraded, 1 newly installed, 0 to remove and 37 not upgraded.
+Need to get 6973 kB of archives.
+After this operation, 43.3 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 libopenblas0-serial amd64 0.3.26+ds-1 [6973 kB]
+Fetched 6973 kB in 1s (5138 kB/s)
+Download complete and in download only mode
+2025/12/24 12:14:18 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  libopenblas0-pthread
+0 upgraded, 1 newly installed, 0 to remove and 37 not upgraded.
+Need to get 7175 kB of archives.
+After this operation, 44.8 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 libopenblas0-pthread amd64 0.3.26+ds-1 [7175 kB]
+Fetched 7175 kB in 1s (14.1 MB/s)
+Download complete and in download only mode
+2025/12/24 12:14:22 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  libopenblas0-openmp
+0 upgraded, 1 newly installed, 0 to remove and 37 not upgraded.
+Need to get 7200 kB of archives.
+After this operation, 44.9 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 libopenblas0-openmp amd64 0.3.26+ds-1 [7200 kB]
+Fetched 7200 kB in 1s (14.2 MB/s)
+Download complete and in download only mode
+2025/12/24 12:14:27 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  libblis4-serial
+0 upgraded, 1 newly installed, 0 to remove and 37 not upgraded.
+Need to get 4660 kB of archives.
+After this operation, 24.4 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 libblis4-serial amd64 0.9.0-1 [4660 kB]
+Fetched 4660 kB in 0s (12.4 MB/s)
+Download complete and in download only mode
+2025/12/24 12:14:32 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  libblis4-pthread
+0 upgraded, 1 newly installed, 0 to remove and 37 not upgraded.
+Need to get 4669 kB of archives.
+After this operation, 24.4 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 libblis4-pthread amd64 0.9.0-1 [4669 kB]
+Fetched 4669 kB in 1s (7871 kB/s)
+Download complete and in download only mode
+2025/12/24 12:14:36 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  libblis4-openmp
+0 upgraded, 1 newly installed, 0 to remove and 37 not upgraded.
+Need to get 4663 kB of archives.
+After this operation, 24.4 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 libblis4-openmp amd64 0.9.0-1 [4663 kB]
+Fetched 4663 kB in 1s (4165 kB/s)
+Download complete and in download only mode
+2025/12/24 12:14:40 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  libatlas3-base
+0 upgraded, 1 newly installed, 0 to remove and 37 not upgraded.
+Need to get 3544 kB of archives.
+After this operation, 12.0 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 libatlas3-base amd64 3.10.3-13ubuntu1 [3544 kB]
+Fetched 3544 kB in 0s (8413 kB/s)
+Download complete and in download only mode
+2025/12/24 12:14:45 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libopenblas0-serial
+The following NEW packages will be installed:
+  libopenblas-serial-dev libopenblas0-serial
+0 upgraded, 2 newly installed, 0 to remove and 37 not upgraded.
+Need to get 4761 kB/11.7 MB of archives.
+After this operation, 103 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 libopenblas-serial-dev amd64 0.3.26+ds-1 [4761 kB]
+Fetched 4761 kB in 0s (11.3 MB/s)
+Download complete and in download only mode
+2025/12/24 12:14:50 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libopenblas0-pthread
+The following NEW packages will be installed:
+  libopenblas-pthread-dev libopenblas0-pthread
+0 upgraded, 2 newly installed, 0 to remove and 37 not upgraded.
+Need to get 4900 kB/12.1 MB of archives.
+After this operation, 107 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 libopenblas-pthread-dev amd64 0.3.26+ds-1 [4900 kB]
+Fetched 4900 kB in 1s (8036 kB/s)
+Download complete and in download only mode
+2025/12/24 12:14:56 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libopenblas0-openmp
+The following NEW packages will be installed:
+  libopenblas-openmp-dev libopenblas0-openmp
+0 upgraded, 2 newly installed, 0 to remove and 37 not upgraded.
+Need to get 4904 kB/12.1 MB of archives.
+After this operation, 107 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 libopenblas-openmp-dev amd64 0.3.26+ds-1 [4904 kB]
+Fetched 4904 kB in 1s (3373 kB/s)
+Download complete and in download only mode
+2025/12/24 12:15:01 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libblis4-serial
+The following NEW packages will be installed:
+  libblis-serial-dev libblis4-serial
+0 upgraded, 2 newly installed, 0 to remove and 37 not upgraded.
+Need to get 2548 kB/7208 kB of archives.
+After this operation, 40.9 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 libblis-serial-dev amd64 0.9.0-1 [2548 kB]
+Fetched 2548 kB in 0s (7517 kB/s)
+Download complete and in download only mode
+2025/12/24 12:15:05 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libblis4-pthread
+The following NEW packages will be installed:
+  libblis-pthread-dev libblis4-pthread
+0 upgraded, 2 newly installed, 0 to remove and 37 not upgraded.
+Need to get 2550 kB/7219 kB of archives.
+After this operation, 40.9 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 libblis-pthread-dev amd64 0.9.0-1 [2550 kB]
+Fetched 2550 kB in 0s (5905 kB/s)
+Download complete and in download only mode
+2025/12/24 12:15:09 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libblis4-openmp
+The following NEW packages will be installed:
+  libblis-openmp-dev libblis4-openmp
+0 upgraded, 2 newly installed, 0 to remove and 37 not upgraded.
+Need to get 2550 kB/7213 kB of archives.
+After this operation, 40.9 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 libblis-openmp-dev amd64 0.9.0-1 [2550 kB]
+Fetched 2550 kB in 0s (5207 kB/s)
+Download complete and in download only mode
+2025/12/24 12:15:15 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libatlas3-base
+Suggested packages:
+  libatlas-doc liblapack-doc
+The following NEW packages will be installed:
+  libatlas-base-dev libatlas3-base
+0 upgraded, 2 newly installed, 0 to remove and 37 not upgraded.
+Need to get 3827 kB/7371 kB of archives.
+After this operation, 36.4 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 libatlas-base-dev amd64 3.10.3-13ubuntu1 [3827 kB]
+Fetched 3827 kB in 1s (3056 kB/s)
+Download complete and in download only mode
+2025/12/24 12:15:19 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 37 not upgraded.
+Need to get 2646 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 liblapack3 amd64 3.12.0-3build1.1 [2646 kB]
+Fetched 2646 kB in 0s (6340 kB/s)
+Download complete and in download only mode
+2025/12/24 12:15:24 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 37 not upgraded.
+Need to get 5196 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 liblapack-dev amd64 3.12.0-3build1.1 [5196 kB]
+Fetched 5196 kB in 0s (12.3 MB/s)
+Download complete and in download only mode
+2025/12/24 12:15:27 apt.go:237: Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 37 not upgraded.
+Need to get 0 B/4334 B of archives.
+After this operation, 0 B of additional disk space will be used.
+Download complete and in download only mode
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/RcppArmadillo_15.2.3-1.tar.gz'
+Content type 'application/x-gzip' length 2123239 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+     [,1]            [,2]                                                    
+[1,] "RcppArmadillo" "/credo_env/credoenv/cran/RcppArmadillo_15.2.3-1.tar.gz"
+Loading required package: BiocManager
+Bioconductor version '3.18' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+trying URL 'http://cran.us.r-project.org/src/contrib/withr_3.0.2.tar.gz'
+Content type 'application/x-gzip' length 103240 bytes (100 KB)
+===================
+downloaded 39 KB
+
+2025/12/24 12:16:44 save.go:22: Error saving: exit status 1
